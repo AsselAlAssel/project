@@ -9,7 +9,7 @@ const Clinet = () => {
           Clients <span>Testimonial</span>
         </h1>
         <p>
-          use a passage of Lorem Ipsum, you need to be sure there isn't anything
+          use a passa of Lorem Ipsum, you need to be sure there isn't anything
           embarrassing hidden in the<br/> middle of text. All the Lorem Ipsum
           generators on the
         </p>
