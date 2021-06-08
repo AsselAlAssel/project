@@ -1,0 +1,53 @@
+.slider {
+    width: 100%;
+    overflow: hidden;
+    overflow-x: scroll;
+    display: flex;
+    cursor: pointer;
+    padding-bottom: 40px;
+}
+
+.item {
+    text-align: center;
+    background-color: #41C365;
+    height: 300px;
+    min-width: 32.3%;
+    margin: 5px;
+    border-radius: 20px;
+    text-align: center;
+    .cyrcle {
+        height: 50px;
+        width: 50px;
+        background-color: #dddddd;
+        border-radius: 50%;
+        margin: 10px auto;
+    }
+    .text {
+        color: #fff;
+        span {
+            font-size: 25px;
+        }
+        p {
+            font-size: 15px;
+            line-height: 23px;
+            font-weight: 300;
+        }
+    }
+}
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+
+.slider::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* Hide scrollbar for IE, Edge and Firefox */
+
+.slider {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}

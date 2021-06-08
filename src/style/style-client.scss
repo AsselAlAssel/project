@@ -1,0 +1,18 @@
+.client {
+    padding: 40px 15%;
+    .title {
+        padding: 10px 20px;
+        text-align: center;
+        h1 {
+            font-size: 45px;
+            span {
+                color: #5bbd62;
+            }
+        }
+        p {
+            font-size: 17px;
+            line-height: 28px;
+            font-weight: 300;
+        }
+    }
+}
